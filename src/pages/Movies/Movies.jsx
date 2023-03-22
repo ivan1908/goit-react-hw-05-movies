@@ -12,7 +12,7 @@ const Movies = () => {
 
   const [movies, setMovies] = useState(null);
   const [totalMovie, setTotalMovie] = useState(null);
-  const [showLoading, setShowLoading] = useState(false);
+  const [showLoading, setShowLoading] = useState(true);
   const [inputSearch, setInputSearch] = useState(query);
 
   useEffect(() => {
